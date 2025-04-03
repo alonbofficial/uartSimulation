@@ -1,8 +1,12 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
-
-import { routes } from './app.routes';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import { NgChartsModule } from 'ng2-charts'; // ✅ works now with v8
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
+  providers: [
+    provideAnimations(),
+    provideRouter([]),
+    importProvidersFrom(NgChartsModule), // ✅ inject the module
+  ],
 };
