@@ -13,7 +13,7 @@ import { ChangeDetectorRef } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   @ViewChild(BaseChartDirective) chart?: BaseChartDirective;
-  private stompClient = Stomp.over(() => new SockJS('/ws'));
+  private stompClient = Stomp.over(() => new SockJS('https://ubiquitous-space-xylophone-95q55gjprgq39p5g-8080.app.github.dev/ws'));
 
   constructor(private cdr: ChangeDetectorRef) {}
 
