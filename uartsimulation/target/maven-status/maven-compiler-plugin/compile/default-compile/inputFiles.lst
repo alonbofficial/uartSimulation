@@ -1,0 +1,17 @@
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/configuration/WebConfig.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/UartSimulationApplication.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/service/UartService.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/service/RandomNameAndTemp.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/controller/HardwareManagementController.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/service/HardwareService.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/service/IHardwareService.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/entity/SensorData.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/controller/WebSocketController.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/configuration/WebSocketConfig.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/service/IRandomNameAndTemp.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/dto/DevicesDto.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/configuration/AppConfig.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/entity/Hardware.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/repo/HardwareRepo.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/controller/RandomNameAndTempController.java
+/workspaces/uartSimulation/uartsimulation/src/main/java/com/uart/uartsimulation/application_package/dto/HardwareDto.java
