@@ -19,6 +19,7 @@ A real-time full-stack simulation of UART sensor data using **Spring Boot (Java 
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -190,10 +191,11 @@ Frontend not displaying data?
 ## Author
 Alon 
 
+##Screenshots
 
+![image](https://github.com/user-attachments/assets/b73de080-b8a4-487c-aacd-0c291d317fba)
 
-
-
+![image](https://github.com/user-attachments/assets/3858febe-1964-49a4-bd3f-60c85f9b0f50)
 
 
 
