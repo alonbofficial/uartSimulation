@@ -71,7 +71,6 @@ npm install -g @angular/cli
 ### Running in GitHub Codespaces
 
 1. Launch the Codespace from this GitHub repository.
-![Screenshot 2025-04-06 200805](https://github.com/user-attachments/assets/d7adbddd-d455-4c01-bcf9-e5c99d57af0a)
 
 2. Open a terminal and start the backend:
 
