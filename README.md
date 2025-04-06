@@ -191,7 +191,7 @@ Frontend not displaying data?
 ## Author
 Alon 
 
-##Screenshots
+## Screenshots
 
 ![image](https://github.com/user-attachments/assets/b73de080-b8a4-487c-aacd-0c291d317fba)
 
