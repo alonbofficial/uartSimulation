@@ -16,6 +16,7 @@ A real-time full-stack simulation of UART sensor data using **Spring Boot (Java 
 - [WebSocket Configuration](#websocket-configuration)
 - [Java Version Troubleshooting](#java-version-troubleshooting)
 - [Troubleshooting](#troubleshooting)
+- [H2 Database](#H2-database)
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
@@ -29,6 +30,7 @@ A real-time full-stack simulation of UART sensor data using **Spring Boot (Java 
 - **STOMP over WebSocket** for data streaming
 - **Maven** for backend builds
 - **Node.js + npm** for frontend
+- **H2** for database interaction
 
 ---
 
@@ -186,6 +188,51 @@ Frontend not displaying data?
 - Confirm WebSocket is connected
 - Verify backend is sending messages to /topic/data
 
+
+## H2 Database
+
+### Steps to Access H2 Console in GitHub Codespaces
+
+1. Start your Spring Boot application.
+   - Make sure it's running without errors.
+
+2. Expose the port in Codespaces.
+   - GitHub Codespaces doesn't expose all ports by default.
+   - The H2 console will be available on the port your Spring Boot app is running on (usually 8080).
+   - In the Codespaces IDE (e.g., VS Code), click on the Ports tab.
+      - If it’s not visible, go to View → Ports.
+   - Look for port 8080 (or whatever port you're using), and make sure it’s Public.
+      - Right-click → Make Public, if not already.
+
+3. Open the H2 Console in your browser.
+   - Use the forwarded URL for port 8080 in Codespaces.
+   - The URL will look like:
+   ```bash
+   https://<your-username>-uartsimulation-8080.<random-string>.github.dev/h2-console
+   ```
+   - My link for H2 DB is the folllowing:
+   ```bash
+      https://ubiquitous-space-xylophone-95q55gjprgq39p5g-8080.app.github.dev/h2-console
+   ```
+4. Login to the H2 Console:
+   - JDBC URL: 
+   ```bash 
+   jdbc:h2:mem:hardware
+   ```
+   - User Name: sa
+   - Password: (leave it blank)
+### Notes
+- Since you're using mem: (in-memory) database, it will be lost when the app restarts.
+- If you want persistence, you can change to a file-based DB:
+```bash
+spring.datasource.url=jdbc:h2:file:~/data/hardware
+```
+This stores the DB in a file under the Codespaces home directory.
+
+Do not forget to change the field "JDBC URL" to:
+```bash
+jdbc:h2:file:~/data/hardware
+```
 
 ## Author
 Alon 
