@@ -20,6 +20,7 @@ A real-time full-stack simulation of UART sensor data using **Spring Boot (Java 
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -75,14 +76,18 @@ npm install -g @angular/cli
 
 2. Open a terminal and start the backend:
 
+```bash
 cd uartsimulation
 mvn spring-boot:run
+```
 
 3. Open another terminal and start the frontend:
 
+```bash
 cd uart-frontend
 npm install
 npm start
+```
 
 4. Open the forwarded ports (8080 for backend, 4200 for frontend) using the Ports tab in Codespaces.
 
@@ -237,10 +242,11 @@ jdbc:h2:file:~/data/hardware
 ## Author
 Alon 
 
+## Screenshots
 
+![image](https://github.com/user-attachments/assets/b73de080-b8a4-487c-aacd-0c291d317fba)
 
-
-
+![image](https://github.com/user-attachments/assets/3858febe-1964-49a4-bd3f-60c85f9b0f50)
 
 
 
